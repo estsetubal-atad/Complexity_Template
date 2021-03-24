@@ -13,7 +13,7 @@ int main() {
 
     int workSizes[] = {1, 5, 50, 500, 1000};
 
-    printf("f(n) series to insert at http://www.alcula.com/calculators/statistics/scatter-plot/: \n");
+    printf("f(n) series to insert at http://www.alcula.com/calculators/statistics/scatter-plot/ : \n");
     for(int i = 0; i < sizeof(workSizes)/sizeof(int); i++) {
         int n = workSizes[i];
 
