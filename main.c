@@ -29,9 +29,13 @@ int main() {
 int algorithm(int N) {
     int instructions = 0;
 
+    // change the "algorithm" here ---
+    
     for(int i=0; i<=N; i++) 
         for(int j=0; j<=N/2; j++)
             instructions++;
+
+    //---
 
     return instructions;
 }
